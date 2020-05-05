@@ -21,4 +21,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* MongoDB
+
+Se uma coleção não existir, o MongoDB cria a coleção quando você armazena dados pela primeira vez.
+
+show databases
+use sala
+db.sala.insert()
+db.sala.find()
